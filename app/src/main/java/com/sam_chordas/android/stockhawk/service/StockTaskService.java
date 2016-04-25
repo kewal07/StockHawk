@@ -1,4 +1,4 @@
-package com.kewal_krishna.android.stockhawk.service;
+package com.sam_chordas.android.stockhawk.service;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentValues;
@@ -11,9 +11,9 @@ import android.util.Log;
 import com.google.android.gms.gcm.GcmNetworkManager;
 import com.google.android.gms.gcm.GcmTaskService;
 import com.google.android.gms.gcm.TaskParams;
-import com.kewal_krishna.android.stockhawk.data.QuoteColumns;
-import com.kewal_krishna.android.stockhawk.data.QuoteProvider;
-import com.kewal_krishna.android.stockhawk.rest.Utils;
+import com.sam_chordas.android.stockhawk.data.QuoteColumns;
+import com.sam_chordas.android.stockhawk.data.QuoteProvider;
+import com.sam_chordas.android.stockhawk.rest.Utils;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
@@ -23,7 +23,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 
 /**
- * Created by kewal_krishna on 9/30/15.
+ * Created by sam_chordas on 9/30/15.
  * The GCMTask service is primarily for periodic tasks. However, OnRunTask can be called directly
  * and is used for the initialization and adding task as well.
  */

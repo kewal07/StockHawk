@@ -1,10 +1,10 @@
-package com.kewal_krishna.android.stockhawk.touch_helper;
+package com.sam_chordas.android.stockhawk.touch_helper;
 
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
 /**
- * Created by kewal_krishna on 10/6/15.
+ * Created by sam_chordas on 10/6/15.
  * credit to Paul Burke (ipaulpro)
  * this class enables swipe to delete in RecyclerView
  */

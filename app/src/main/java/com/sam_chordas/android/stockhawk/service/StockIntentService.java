@@ -1,4 +1,4 @@
-package com.kewal_krishna.android.stockhawk.service;
+package com.sam_chordas.android.stockhawk.service;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -9,10 +9,10 @@ import android.widget.Toast;
 
 import com.google.android.gms.gcm.GcmNetworkManager;
 import com.google.android.gms.gcm.TaskParams;
-import com.kewal_krishna.android.stockhawk.R;
+import com.sam_chordas.android.stockhawk.R;
 
 /**
- * Created by kewal_krishna on 10/1/15.
+ * Created by sam_chordas on 10/1/15.
  */
 public class StockIntentService extends IntentService {
 

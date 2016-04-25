@@ -1,4 +1,4 @@
-package com.kewal_krishna.android.stockhawk.ui;
+package com.sam_chordas.android.stockhawk.ui;
 
 import android.app.LoaderManager;
 import android.content.Context;
@@ -19,9 +19,9 @@ import com.db.chart.view.AxisController;
 import com.db.chart.view.ChartView;
 import com.db.chart.view.LineChartView;
 import com.db.chart.view.animation.Animation;
-import com.kewal_krishna.android.stockhawk.R;
-import com.kewal_krishna.android.stockhawk.data.QuoteColumns;
-import com.kewal_krishna.android.stockhawk.data.QuoteProvider;
+import com.sam_chordas.android.stockhawk.R;
+import com.sam_chordas.android.stockhawk.data.QuoteColumns;
+import com.sam_chordas.android.stockhawk.data.QuoteProvider;
 
 import java.util.ArrayList;
 import java.util.Collections;

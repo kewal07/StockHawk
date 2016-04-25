@@ -1,4 +1,4 @@
-package com.kewal_krishna.android.stockhawk.ui;
+package com.sam_chordas.android.stockhawk.ui;
 
 import android.app.LoaderManager;
 import android.content.Context;
@@ -24,19 +24,19 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.kewal_krishna.android.stockhawk.R;
-import com.kewal_krishna.android.stockhawk.data.QuoteColumns;
-import com.kewal_krishna.android.stockhawk.data.QuoteProvider;
-import com.kewal_krishna.android.stockhawk.rest.QuoteCursorAdapter;
-import com.kewal_krishna.android.stockhawk.rest.RecyclerViewItemClickListener;
-import com.kewal_krishna.android.stockhawk.rest.Utils;
-import com.kewal_krishna.android.stockhawk.service.StockIntentService;
-import com.kewal_krishna.android.stockhawk.service.StockTaskService;
+import com.sam_chordas.android.stockhawk.R;
+import com.sam_chordas.android.stockhawk.data.QuoteColumns;
+import com.sam_chordas.android.stockhawk.data.QuoteProvider;
+import com.sam_chordas.android.stockhawk.rest.QuoteCursorAdapter;
+import com.sam_chordas.android.stockhawk.rest.RecyclerViewItemClickListener;
+import com.sam_chordas.android.stockhawk.rest.Utils;
+import com.sam_chordas.android.stockhawk.service.StockIntentService;
+import com.sam_chordas.android.stockhawk.service.StockTaskService;
 import com.google.android.gms.gcm.GcmNetworkManager;
 import com.google.android.gms.gcm.PeriodicTask;
 import com.google.android.gms.gcm.Task;
 import com.melnykov.fab.FloatingActionButton;
-import com.kewal_krishna.android.stockhawk.touch_helper.SimpleItemTouchHelperCallback;
+import com.sam_chordas.android.stockhawk.touch_helper.SimpleItemTouchHelperCallback;
 
 public class MyStocksActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 
