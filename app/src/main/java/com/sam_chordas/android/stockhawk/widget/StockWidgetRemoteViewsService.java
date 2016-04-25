@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.widget;
+package com.kewal_krishna.android.stockhawk.widget;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -7,10 +7,10 @@ import android.widget.AdapterView;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.sam_chordas.android.stockhawk.R;
-import com.sam_chordas.android.stockhawk.data.QuoteColumns;
-import com.sam_chordas.android.stockhawk.data.QuoteProvider;
-import com.sam_chordas.android.stockhawk.rest.Utils;
+import com.kewal_krishna.android.stockhawk.R;
+import com.kewal_krishna.android.stockhawk.data.QuoteColumns;
+import com.kewal_krishna.android.stockhawk.data.QuoteProvider;
+import com.kewal_krishna.android.stockhawk.rest.Utils;
 
 public class StockWidgetRemoteViewsService extends RemoteViewsService {
 

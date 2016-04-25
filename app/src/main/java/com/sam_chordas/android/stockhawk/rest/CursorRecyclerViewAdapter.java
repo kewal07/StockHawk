@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.rest;
+package com.kewal_krishna.android.stockhawk.rest;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,7 +6,7 @@ import android.database.DataSetObserver;
 import android.support.v7.widget.RecyclerView;
 
 /**
- * Created by sam_chordas on 10/6/15.
+ * Created by kewal_krishna on 10/6/15.
  *  Credit to skyfishjy gist:
  *    https://gist.github.com/skyfishjy/443b7448f59be978bc59
  * for the CursorRecyclerViewApater.java code and idea.

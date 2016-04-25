@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sam_chordas.android.stockhawk">
+    package="com.kewal_krishna.android.stockhawk">
 
     <application
         android:allowBackup="true"
@@ -40,7 +40,7 @@
 
         <provider
             android:name=".data.generated.QuoteProvider"
-            android:authorities="com.sam_chordas.android.stockhawk.data.QuoteProvider"
+            android:authorities="com.kewal_krishna.android.stockhawk.data.QuoteProvider"
             android:exported="false" />
 
         <receiver
@@ -66,7 +66,7 @@
             android:parentActivityName=".ui.MyStocksActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sam_chordas.android.stockhawk.ui.MyStocksActivity" />
+                android:value="com.kewal_krishna.android.stockhawk.ui.MyStocksActivity" />
         </activity>
     </application>
 

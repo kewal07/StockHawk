@@ -1,10 +1,10 @@
-package com.sam_chordas.android.stockhawk.data;
+package com.kewal_krishna.android.stockhawk.data;
 
 import net.simonvt.schematic.annotation.Database;
 import net.simonvt.schematic.annotation.Table;
 
 /**
- * Created by sam_chordas on 10/5/15.
+ * Created by kewal_krishna on 10/5/15.
  */
 @Database(version = QuoteDatabase.VERSION)
 public class QuoteDatabase {

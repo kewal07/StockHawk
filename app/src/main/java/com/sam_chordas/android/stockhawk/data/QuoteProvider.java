@@ -1,4 +1,4 @@
-package com.sam_chordas.android.stockhawk.data;
+package com.kewal_krishna.android.stockhawk.data;
 
 import android.net.Uri;
 import net.simonvt.schematic.annotation.ContentProvider;
@@ -7,11 +7,11 @@ import net.simonvt.schematic.annotation.InexactContentUri;
 import net.simonvt.schematic.annotation.TableEndpoint;
 
 /**
- * Created by sam_chordas on 10/5/15.
+ * Created by kewal_krishna on 10/5/15.
  */
 @ContentProvider(authority = QuoteProvider.AUTHORITY, database = QuoteDatabase.class)
 public class QuoteProvider {
-  public static final String AUTHORITY = "com.sam_chordas.android.stockhawk.data.QuoteProvider";
+  public static final String AUTHORITY = "com.kewal_krishna.android.stockhawk.data.QuoteProvider";
 
   static final Uri BASE_CONTENT_URI = Uri.parse("content://" + AUTHORITY);
 
