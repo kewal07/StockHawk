@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="true">Stock Hawk</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings" translatable="true">Settings</string>
+    <string name="action_change_units" translatable="true">Change Units</string>
+    <string name="symbol_search" translatable="true">Symbol Search</string>
+    <string name="content_test" translatable="true">Search for a Stock Symbol</string>
+    <string name="input_hint" translatable="true">FB</string>
+    <string name="input_prefill"></string>
+    <string name="network_toast" translatable="true">Uh-oh! This app requires an internet connection</string>
+
+    <string name="network_error" translatable="true">Due to unavailability of internet, list may be empty or out of date.</string>
+
+    <string name="content_description_add_stock" translatable="true">Add a stock item</string>
+    <string name="title_activity_my_stock_detail" translatable="true">Stock Detail</string>
+    <integer name="snackbar_duration">10000</integer>
+    <string name="string_tag"  translatable="false">tag</string>
+    <string name="string_add"  translatable="false">add</string>
+    <string name="string_symbol"  translatable="false">symbol</string>
+    <string name="string_periodic"  translatable="false">periodic</string>
+    <string name="string_init"  translatable="false">init</string>
+    <string name="error_no_symbol"  translatable="true">Error! symbol Not found</string>
+    <string name="string_symbol_found" translatable="true">Success! added new Symbol</string>
+    <string name="string_stock_saved" translatable="true">This stock is already saved!</string>
+
+    <string name="widget_title" translatable="true">My Stocks</string>
+    <string name="string_set_background_resource" translatable="false">setBackgroundResource</string>
+
+</resources>
